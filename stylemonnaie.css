@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Work sans";
+    src: url(font/static/WorkSans-Thin.ttf);
+}
+
+nav {
+    background-color: #A89B9D;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    box-shadow: 3px 3px 10px ;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 35px;
+}
+nav a:link {
+    font-family: 'Work sans', 'Arial';
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+#home, #magnifier, #cart, #letter {
+    width: 30px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+body {
+    background-color: #C0EDE7;
+    width: 60%;
+    margin: auto;
+    font-family: sans-serif, Arial, Helvetica;
+    background: linear-gradient(to right, #C0EDE7 50%, #c6d8d8 100%);
+}
+
+#euro {
+    width: 50% ;
+    max-width: 500px;
+    margin: 2em;
+}
+
+h1 {
+    text-align: center;
+    margin: 2em;
+    padding: 30px;
+    /* border: 2px solid black;
+    border-radius: 30px; */
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+    box-shadow: 7px 7px 15px 5px rgba(0, 0, 0, 0.25);
+    background-color: #836251d7;
+}
+
+.center {
+text-align: center;
+}
+
+p {
+    margin-left: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 3em auto;
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px ;
+    font-weight: bold;
+}
+
+#german, #stmarin {
+    width: 70%;
+}
+
+#irish {
+    width: 62%;
+}
+
+h2 {
+    margin : auto 4em;
+}
+
+form p {
+    margin-left: auto 3em;
+    padding: 0.5em 3em;
+}
+
+#coordonnees, #command {
+    text-align: center;
+}
+
+#formleft, #formright {
+    display: inline-block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#button {
+    background-color: #426d70;
+    border-radius: 23px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 30px;
+    text-shadow: 0px 0px 2px white;
+    margin: 1em;
+}
+
+#button:hover {
+	background:linear-gradient(to bottom, #426d70 25%, #ffffff 100%);
+}
+
+@media screen and (max-width: 1515px) {
+    nav li {
+        display:contents;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    nav {
+        height: 8em;
+        line-height: 8em;
+    }
+    nav li {
+        display: list-item;
+    }
+    h1 {
+        font-size: large;
+    }
+    table tr td {
+        font-size: small;
+    }
+}

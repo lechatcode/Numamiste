@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulaire de commande</title>
+    <link rel="stylesheet" href="stylemonnaie.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><img src="home.png" alt="home" id="home"><a href="index.html">Accueil</a></li>
+                    <li><img src="magnifier.png" alt="magnifier" id="magnifier"><a href="echantillon.html">Echantillons</a></li>
+                    <li><img src="cart.png" alt="cart" id="cart"><a href="formulaire.html">Commander</a></li>
+                    <li><img src="letter.png" alt="letter" id="letter"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <h1>
+            Formulaire de commande
+        </h1>
+    <main>
+        <h2>Vos coordonnées</h2>
+
+        <div id="coordonnees">
+            <form method="post" action="#">
+                <div id="formleft">
+                    <p>
+                        <label>Nom</label> <br/> <input type="text" name="nom" />
+                    </p>
+                    <p>
+                        <label>Prénom</label> <br/> <input type="text" name="prenom" />
+                    </p>
+                    <p>
+                        <label>E-mail</label> <br/> <input type="text" name="email" />
+                    </p>
+                </div>
+                <div id="formright">
+                    <p>
+                        <label>Adresse</label> <br/> <input type="text" name="adresse" />
+                    </p>
+                    <p>
+                        <label>Code postal</label> <br/> <input type="text" name="codepost" />
+                    </p>
+                    <p>
+                        <label>Ville</label> <br/> <input type="text" name="ville" />
+                    </p>
+                </div>
+            </form>
+        </div>
+        <h2>Votre commande</h2>
+
+        <div id="command">
+            <form method="post" action="#">
+                <p class="inline">
+                    <label>Nombre de pièces de 50 cents Allemande</label> <br/> <input type="number" name="nbpiece" value="0"/>
+                </p>
+                <p class="inline">
+                    <label>Nombre de pièces de 1 euro Irlandaise</label> <br/> <input type="number" name="nbpiece" value="0" />
+                </p>
+                <p class="inline">
+                    <label>Nombre de pièces de 2 euros Saint-Marinaise</label> <br/> <input type="number" name="nbpiece" value="0" />
+                </p>
+        </div>
+
+        <div class="center">
+            <input id="button" type="button" value="Commander" ahref="#">
+        </div>
+    </main>
+</body>
+</html>
